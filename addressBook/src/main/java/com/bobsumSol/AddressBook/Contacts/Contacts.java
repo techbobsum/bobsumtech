@@ -62,7 +62,4 @@ public class Contacts {
 	public void setCity(String city) {
 		this.city = city;
 	}
-	
-	
-	
 }
