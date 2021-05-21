@@ -34,7 +34,7 @@ public class CourseService {
 	
 	public String deleteCourseById(int id) {
 		crepo.deleteById(id);
-		return "Course" + id + "is deleted";
+		return "Course " + id + " is deleted";
 	}
 	
 	public Course updateCourse(Course course) {
